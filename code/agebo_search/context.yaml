@@ -1,0 +1,13 @@
+calls:
+- max_evals: 150
+  timeout: null
+search:
+  evaluator:
+    num_workers: 1
+    type: RayEvaluator
+  kwargs: {}
+  log_dir: agebo_search
+  problem: NA
+  random_state: null
+  type: AgEBO
+  verbose: 0
