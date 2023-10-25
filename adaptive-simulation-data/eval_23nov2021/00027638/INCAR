@@ -1,0 +1,33 @@
+  ISTART = 2        # job: 0-new , 1-cont, 2-samecut 
+  ICHARG = 2        # charge: 1-file, 2-atom, 10-const
+  INIWAV = 1        # electr: 0-lowe, 1-rand
+
+  ISMEAR = 0        # -1: fermi,  0-gauss
+  SIGMA  = 0.15     # smearing temp in eV
+
+  LWAVE  = .FALSE.
+  LCHARG = .FALSE.
+
+Electronic Relaxation:
+  PREC   = Accurate
+  NELM   = 100      # maximum num. of SC cycles
+  NELMIN = 4        # minimum num of SC cycles
+
+  NPAR   = 10       # nproc/NPAR processors per group
+  KPAR   = 4
+  ALGO   = Fast
+  ENCUT  = 500
+  EDIFF  = 1E-5
+
+  LREAL  = Auto
+#  ADDGRID = .TRUE.
+
+#dynamic:
+  NSW    = 500     # num of ionic steps
+  IBRION = 2       # 0-MD
+  ISIF   = 2       # allow volume, shape change
+  POTIM  = 0.25    # timestep in fs (10 a.u.)
+  ISYM   = 2
+  #ISPIN  = 2
+  #PSTRESS = 3000 # 300 GPa in kbar
+

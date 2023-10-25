@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<modeling>
+ <generator>
+  <i name="program" type="string">vasp </i>
+  <i name="version" type="string">5.4.4.18Apr17-6-g9f103f2a35  </i>
+  <i name="subversion" type="string">(build Sep 27 2018 12:46:37) complex + VL-xray_ parallel </i>
+  <i name="platform" type="string">LLNL_Quartz_ifc </i>
+  <i name="date" type="string">2021 09 26 </i>
+  <i name="time" type="string">19:15:37 </i>
+ </generator>
+ <incar>
+  <i type="int" name="ISTART">     2</i>
+  <i type="string" name="PREC">accurate</i>
+  <i type="string" name="ALGO"> Fast</i>
+  <i type="int" name="ICHARG">     2</i>
+  <i type="int" name="INIWAV">     1</i>
+  <i type="int" name="NELM">   200</i>
+  <i type="int" name="NELMIN">     4</i>
+  <i type="int" name="IBRION">     2</i>
+  <i name="EDIFF">      0.00000100</i>
+  <i type="int" name="NSW">     5</i>
+  <i type="int" name="ISIF">     2</i>
+  <i type="int" name="ISYM">     2</i>
+  <i name="ENCUT">    450.00000000</i>
+  <i name="POTIM">      0.25000000</i>
+  <i type="string" name="LREAL"> Auto</i>
+  <i type="int" name="ISMEAR">     0</i>
+  <i name="SIGMA">      0.15000000</i>
+  <i type="logical" name="LWAVE"> F  </i>
+  <i type="logical" name="LCHARG"> F  </i>
+  <i type="int" name="ICORELEVEL">     0</i>
+  <i type="int" name="CLNT">     0</i>
+  <i type="int" name="CLN">     1</i>
+  <i type="int" name="INCAR     ">     0</i>
+  <i name="CLZ">      0.00000000</i>
+  <v type="int" name="KPOINT_BSE">    -1     0     0     0</v>
+  <i type="int" name="NELM">   200</i>
